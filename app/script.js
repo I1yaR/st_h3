@@ -153,3 +153,27 @@ const out17 = document.querySelector(".out-17")
 function f17 () {
  out17.value = s17.value 
 }
+
+const s18 = document.querySelector(".s-18")
+const i18 = document.querySelector(".i-18")
+function f18 () {
+    i18.value = s18.value
+}
+
+const i191 = document.querySelector(".i-191")
+const i192 = document.querySelector(".i-192")
+const out19 = document.querySelector(".out-19")
+const button19 = document.querySelector(".button-19")
+ button19.onclick = function f19 () {
+   out19.value = ` ${i191.value} ${i192.value}`
+     // out19.value = i191.value+ "" +i192.value
+}
+
+const i20 = document.querySelector(".i-20")
+const p20 = document.querySelector(".p-20")
+const button20 = document.querySelector(".button-20")
+const out20 = document.querySelector(".out-20")
+
+button20.onclick = function  f20 () {
+    out20.innerHTML += `${i20.value} ${p20.value}`
+}
